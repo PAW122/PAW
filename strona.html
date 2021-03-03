@@ -1,0 +1,14 @@
+<body id="nazwa_zakladki"> <!-- np: sessions, settings, accounts, auctions -->
+
+
+<ul id="tabnav">
+  <% if logged_in? %>
+      <li class="sessions"><%= link_to 'Index', root_path %></li>
+      <li class="items"><%= link_to "Licytacje", items_path -%></li>
+      <li class="auctions"><%= link_to "Aukcje", auctions_path -%></li>
+      <li class="accounts"><%= link_to "RapidShare", accounts_path -%></li>
+      <li class="settings"><%= link_to "Ustawienia", settings_path -%></li>
+  <% end %>
+</ul>
+
+</body>
