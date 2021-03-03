@@ -1,0 +1,99 @@
+# PAW
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+ <meta Charset="utf-8" />
+ <title>Strona główna</title>
+ <meta name="description" content="spis" />
+ <meta name="keywords" content="Menu" />
+ <meta http-equiv="X-UA-Compatible" content="EI=edge,chrome=1" />
+ <meta name="author" content="Paweł Klin" />
+
+<style>
+#ramka
+{
+ width: 1095px;
+ margin-left: ato;
+ margin-right: auto;
+}
+
+#logo
+{
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 10px;
+}
+
+#nav
+{
+  float: left;
+background-color: gray;
+  width: 120px;
+  min-height: 620px;
+  padding 15px;
+}
+
+#content
+{
+  float: left;
+  padding: 20px;
+  width: 680px;
+}
+
+#ad
+{
+  float: left;
+  width: 255px;
+  min-height: 620px;
+  adding: 10px;
+  background-color: lightgray;
+}
+
+#footer
+{
+  clear: both;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+ <div id="ramka">
+ 
+ <div id="logo">
+    <MARQUEE parametr DIRECTION=RIGHT  BGCOLOR=BLACK VSPACE=20> <TD> <img src="2518989.gif" /> </TD> </MARQUEE parametr>
+   </div>
+   <div id="nav">
+   <---
+   <br></br>
+    <a href="file:///C:/Users/oem/Desktop/notepad/1notepad/index.html"  title="naciśnij aby przejść dalej">Praca zaliczeniowa <a/> <br />
+     <br></a>
+      <a href="file:///C:/Users/oem/Desktop/notepad/index.html"  title="naciśnij aby przejść dalej">Tabelka <a/> <br />
+	     <a href="file:///C:/Users/oem/Desktop/notepad/tebelka/index.html"  title="naciśnij aby przejść dalej">1 Tabelka <a/> <br />
+    </div>
+   
+   <div id="content">
+   <img src="ifazdj.jpg" />
+     <MARQUEE parametr><TD> tu są wszystkie prace</TD> </MARQUEE parametr>
+  
+   
+   </div>
+   
+   <div id="ad">
+    <img src=".gif" />
+   </div>
+   
+   
+   
+   <div id="footer">
+      &copy; Nie dam kodu :)
+	</div>
+</body>
+</html>
